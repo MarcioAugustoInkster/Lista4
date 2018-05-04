@@ -55,7 +55,7 @@ public class Lista4Exercicio6 {
             maiorIdade = idade[7];
             nomeIdade = nome[7];
         }
-        nome[8] = JOptionPane.showInputDialog(null, "Informe o nome 9");
+        nome[8] = JOptionPane.showInputDialog(null, "Informe o 9º nome");
         idade[8] = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe a idade 9"));
         if (idade[8] > maiorIdade) {
             maiorIdade = idade[8];
